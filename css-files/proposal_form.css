@@ -1,0 +1,100 @@
+body{
+	background-color: #f0eeee;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: #BA68C8;
+    box-shadow: none;
+    border: none;
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience{
+	border: 1px solid #BA68C8;
+}
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.client-img-name{
+	display: flex;
+}
+
+.internet{
+	border: inherit;
+	display: flex;
+	align-items: center;
+}
+
+#addskills,
+.experience{
+	transition: 3s;
+	animation-name: addskill;
+}
+#addskills input{
+	/*border: 1px solid red;*/
+	border: none;
+	border: 1px solid grey;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 5px 10px;
+	border-radius: 5px;
+
+}
+
+#addskills input[type="button"]{
+	background-color: #6ab9b3;
+	border: none;
+	box-shadow: 5px 5px 5px grey;
+	color: white;
+	font-weight: bold;
+}
+
+#addskills input[type="button"]:active{
+	box-shadow: none;
+}
+
+.each-skill{
+	border-bottom: 1px solid grey;
+}
+
+.removeborder{
+	border: none;
+}
+
+.borderbottom
+/*@keyframes addskill{
+	0%{top:-20px;}
+	50%{top:2px;}
+	100%{top: 10px;}
+}*/

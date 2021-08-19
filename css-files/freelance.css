@@ -1,0 +1,124 @@
+		
+		/*justifies the items at the right side of the navbar*/
+
+.mynav{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+		/*homepage image*/
+.imagecont{
+	background-image: url(../images/image1.png);
+	width: 100%;
+	height: 597px;
+	background-color:#7d6a6c;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.writeupcont{
+	width: 45%;
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+.writeup-items h1{
+	color: white;
+	font-size:45px;
+	font-weight: bold;
+}	
+
+.writeup-items p{
+	color: white;
+	font-size:25px;
+}	
+.choice{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.choice a{
+	color: white;
+	border: 1px solid green;
+	padding: 10px 15px;
+
+}
+
+.choice a:hover{
+	text-decoration: none;
+	background-color:#83c27b;
+	border: none;
+	font-weight: bold;
+}
+
+.center-card{
+	display: flex;
+	justify-content: center;
+}
+
+.footer{
+	background-color: rgb(27, 37, 62);
+	color: white;
+	padding: 5px 0;
+	margin-top: 100px;
+}
+
+.circle{
+	border: 4px solid rgb(27, 37, 62);
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+	border-radius: 50%;
+	width: 95px;
+	height: 95px;
+	padding: 10px;
+	transition: 0.4s;
+}
+
+.circle2{
+	width: 70px;
+	height: 70px;
+}
+
+.circle:hover{
+	cursor: pointer;
+	box-shadow: 5px 5px 5px grey;
+	background-color: rgb(27, 37, 62);
+	color: white;
+}
+.card{
+	 border-radius: 5px;
+	 box-shadow: 5px 5px 5px grey;
+	 transition: 0.4s;
+}
+
+.card:hover{
+	box-shadow: none;
+	background-color:#eeeded;
+}
+
+.how-to-text{
+	
+}
+
+/*desktop*/
+
+@media screen and (max-width: 1200px){
+
+}
+
+		/*tablet*/
+
+@media screen and (max-width: 1200px){
+}
+
+		/*mobile*/
+@media screen and (max-width: 1200px){		

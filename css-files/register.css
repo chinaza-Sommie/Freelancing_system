@@ -1,0 +1,59 @@
+.maincon{
+	width: 35%;
+	margin-top: 30px;
+	border: 1px solid grey;
+	padding: 10px 20px;
+}
+.userregistrationchoice{
+	display: flex;
+}
+
+.userregistrationchoice div{
+	border: 1px solid grey;
+	width: 50%;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.userregistrationchoice div:hover{
+	background-color: #eae6e6;
+	cursor: pointer;
+}
+
+.inputs{
+	width:100%;
+	margin-bottom: 20px;
+	padding: 10px 15px;
+	border: none;
+	border:1px solid grey;
+	border-radius: 5px;
+
+}
+
+.dateofbirth{
+	display: flex;
+	justify-content: space-between;
+}
+
+.dateofbirthitems{
+	width: 48%;
+}
+.reg{
+	width: 100%;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border:none;
+	background-color: #6ab9b3;
+	padding: 10px 10px;
+	margin: 10px 0;
+}
+
+.reg:hover{
+	background-color: rgb(51, 125, 124);
+}
+
+a:hover{
+	text-decoration: none;
+}

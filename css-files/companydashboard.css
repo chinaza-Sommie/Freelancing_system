@@ -1,0 +1,139 @@
+.gigslist{
+	/*background-color: #535a6c;*/
+}
+
+.proplists{
+	border-bottom:1px solid grey;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 8px 15px 8px;
+}
+
+.proplists .propview{
+	/*border:1px solid black;*/
+	padding: 2px 14px 4px 14px;
+	border-radius: 16px;
+	background-color: #6ab9b3;
+	box-shadow: 5px 5px 5px #4b8a85;
+	color: white;
+}
+
+.proplists .propview:hover{
+	cursor: pointer;
+	background-color: #4b8a85;
+}
+
+.backarrow{
+	cursor: pointer;
+	border: 2px solid #535a6c;
+	width: 15%;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	padding: 5px 15px;
+}
+
+.backarrow:hover{
+	background-color: #535a6c;
+	color: white;
+}
+
+table{
+	margin-top: 35px;
+	padding: 5px;
+}
+.tableheader{
+	text-align: center;
+	background-color: #6ab9b3;
+}
+
+td{
+	text-align: center;
+	border-right: 1px solid #535a6c;
+	border-bottom: 1px solid #535a6c;
+	padding: 5px;
+}
+
+tr td:nth child{
+	border-right: none;
+}
+
+th{
+	padding: 5px;
+}
+
+.proposalcolumn{
+	text-align: left;
+}
+
+.contactcolumn{
+	border-right: none;
+}
+.contactcolumn p{
+	padding: 0;
+	margin: 0 6px;
+	background-color: #6ab9b3;
+}
+
+.contactcolumn p:hover{
+	cursor: pointer;
+	background-color: #4b8a85;
+}
+
+.tablecontaner{
+	display: flex;
+	justify-content: center;
+}
+
+.freelancername,
+.jobordered,
+.dateordered,
+.duedate,
+.jobstatus{
+	padding: 20px;
+}
+
+.jobstatus{
+	border-right: none;
+}
+
+.orderheaders{
+	padding: 10px;
+}
+
+
+.viewproposals{
+	border:1px solid white;
+	border-radius: 5px;
+	color: white;
+}
+
+.viewproposals:hover{
+	color: #535a6c;
+	text-decoration: none;
+}
+
+@media (max-width: 600px){
+	.gigslist{
+		margin-bottom: 10px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.clientswork-controls{
+		display: flex;
+	}
+	.viewproposal{
+		border: 1px solid white;
+		border-radius: 5px;
+	}
+	.viewproposals{
+		/*font-size: 12px;*/
+		border: none;
+	}
+	.job-price-for-work{
+		flex-direction: column;
+		margin-left: 5px;
+	}
+}

@@ -1,0 +1,108 @@
+.prop-table{
+	border: 1px solid grey;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+table{
+	border: 1px solid grey;
+}
+
+.myrows{
+	padding: 100px 20px;
+}
+
+.checkboximg{
+	border: 1px solid black;
+	padding: 0 5px 5px 5px;
+	/*display: inline-block;*/
+	color:black;
+}
+
+.checkboximg:hover{
+	text-decoration: none;
+	color: black;
+}
+
+/*SELECTION PAGE*/
+.mycontainer{
+	border: 1px solid grey;
+	width: 80%;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.main-container{
+	display: flex;
+	justify-content: center;
+}
+.freelancerDet-flex{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid grey;
+}
+
+.options{
+	display: flex;
+	justify-content: space-around;
+}
+
+.yes-btn{
+	border:none;
+	border:1px solid #6ab9b3;
+	background-color: #6ab9b3;
+	padding: 10px 50px;
+}
+
+.No-btn{
+	border: 1px solid #6ab9b3;
+	background-color: inherit;
+	padding: 10px 50px;
+	font-weight: bold;
+	color: #6ab9b3;
+}
+
+.yes-btn:hover{
+	cursor: pointer;
+	background-color: inherit;
+	color: #6ab9b3;
+	font-weight: bold;
+}
+
+.No-btn:hover{
+	cursor: pointer;
+	background-color: #6ab9b3;
+	color: white;
+	font-weight: normal;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.mycontainhide{
+	display: none;
+}
+
+.Work-date-flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+	/*EDIT PAGE*/
+.edit{
+	display: flex;
+	justify-content: center;
+}
+.edit form{
+	border: 1px solid yellow;
+	width: 50%;
+}
+
+.edit-input{
+	width: 100%;
+	border: 1px solid purple;
+	margin-bottom: 10px;
+}
+
+.edit-input input{
+	width: 100%;
+}

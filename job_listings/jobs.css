@@ -1,0 +1,96 @@
+.mytitlebanner{
+  color: white;
+  background-color: teal;
+  padding: 10px 0;
+}
+
+.coverageforsideNmain{
+  /*border: 1px solid red;*/
+  display: flex;
+}
+
+#mySidebar{
+  background-color: teal;
+  width: 20%;
+  transition: .5s;
+  color: white;
+  box-sizing: border-box;
+}
+
+#mySidebar p{
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+#mySidebar p:hover{
+  background-color: #007373;
+  cursor: pointer;
+}
+
+.activeMe{
+  border-bottom: 1px solid white;
+  /*animation: borderMovement 5s ease;*/
+}
+
+#main{
+  background-color: wheat;
+  width:100%;
+  /*width:70%;*/
+}
+
+.mybad{
+  color:white;
+  font-size: 26px;
+}
+
+.mySpace{
+  background-color:black;
+}
+
+.firstPOst form{
+  text-align: center;
+}
+
+.firstPOst form input,
+.postCategory{
+  border: none;
+  width: 100%;
+  padding: 8px;
+  color: teal;
+  border-radius: 8px;
+  border: 1px solid teal;
+
+}
+
+.NewPostText textarea{
+  width: 100%;
+  color: teal;
+  padding: 10px;
+}
+
+/*@keyframes borderMovement{
+  0%{width:0%;}
+  10%{width:10%;}
+  20%{width: 20%}
+  30%{width: 30%}
+  40%{width: 40%}
+  50%{width: 50%}
+}*/
+
+
+
+
+
+@media (max-width: 700px){
+  .coverageforsideNmain{
+    position: relative;
+  }
+
+  #main{
+    /*position: relative;*/
+    width: 100%;
+  }
+  #mySidebar{
+    background-color: red;
+    position: absolute;
+  }
+}
